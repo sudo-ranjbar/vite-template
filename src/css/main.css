@@ -1,0 +1,19 @@
+@import url('./colors/red.css');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "epic";
+  src: url("/fonts/EPIC PINAR DOT5-REGULAR.TTF");
+}
+
+body {
+  font-family: epic;
+}
+
+.background-image{
+  height: 400px;
+  width: 400px;
+  background-image: url("/images/400x7.png");
+  background-position: top center;
+  background-size: cover;
+}
