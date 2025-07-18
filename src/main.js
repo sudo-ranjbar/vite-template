@@ -1,4 +1,3 @@
-
 console.log('test');
 
 import imgURL from '/images/pic1-1360.png'
@@ -13,3 +12,7 @@ document.getElementById("dynamicImg").src = dynamicImgURL;
 console.log(import.meta.env);
 
 console.log(import.meta.env.VITE_TEST);
+
+import Alpine from 'alpinejs'
+window.Alpine = Alpine
+Alpine.start()
